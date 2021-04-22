@@ -5,6 +5,8 @@ body {
 }
 
 
+/* nav bar */
+
 nav{
   width: 100vw;
   background-color: #0033cc;
@@ -32,11 +34,23 @@ a {
 a:hover {
     background-color: #0066ff;
 }
+button{
+  display: none;
+}
+
 
 /*change the layout of the navigation bar for all the screens 
 that have a width less or equal than 500px*/
 
 @media only screen and (max-width: 500px) {
+  button{
+      display: block;
+      padding: 2vw;
+      font-size: 3vh;
+      background-color: #AFE0FF;
+      border: none;
+      outline: none;
+      cursor: pointer;
   /*shows elements in a column*/
   ul{
     flex-direction: column;
