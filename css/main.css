@@ -78,32 +78,6 @@ a:hover{
 /*change the layout of the navigation bar for all the screens 
 that have a width less or equal than 500px*/
 
-@media only screen and (max-width: 500px) {
-  button{
-      display: block;
-      padding: 2vw;
-      font-size: 3vh;
-      background-color: #AFE0FF;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      align-self: flex-start;
-      
-  /*shows elements in a column*/
-  ul{
-      flex-direction: column;
-  }
-  
-  /* deletes margin on top or bottom of the a tag*/
-  li{
-      margin: 0;
-  }
- /* makes sure that the a tag will take the entire screen*/
-  a{
-      display: block;
-  }
-}
-
 
 h1 {
     font-size: 3em;
