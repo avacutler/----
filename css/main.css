@@ -47,7 +47,7 @@ a:hover{
   background-color: brown;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
   ul{
     flex-direction: column;
   }
