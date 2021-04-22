@@ -6,6 +6,7 @@ body {
 nav{
   width: 100vw;
   background-color: #0033cc;
+  padding:2vw;
 }
 
 nav ul, footer ul {
@@ -21,8 +22,6 @@ nav ul li, footer ul li {
     list-style-type: none;
     fontsize: 3vh;
 }
-
-
 a {
     text-decoration: none;
     color: #999;
