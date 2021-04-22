@@ -28,7 +28,7 @@ a {
     padding: 2vw;
 }
 a:hover {
-    text-decoration: underline;
+    background-color: #0066ff;
 }
 h1 {
     font-size: 3em;
