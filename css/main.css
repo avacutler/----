@@ -8,9 +8,9 @@ body {
 /* nav bar */
 
 nav{
-  width: 100vw;
-  background-color: #0033cc;
-  padding:2vw;
+    width: 100vw;
+    background-color: #0033cc;
+    padding:2vw;
 }
 
 nav ul, footer ul {
@@ -35,7 +35,7 @@ a:hover {
     background-color: #0066ff;
 }
 button{
-  display: none;
+    display: none;
 }
 
 
@@ -51,18 +51,20 @@ that have a width less or equal than 500px*/
       border: none;
       outline: none;
       cursor: pointer;
+      align-self: flex-start;
+      
   /*shows elements in a column*/
   ul{
-    flex-direction: column;
+      flex-direction: column;
   }
   
   /* deletes margin on top or bottom of the a tag*/
   li{
-    margin: 0;
+      margin: 0;
   }
  /* makes sure that the a tag will take the entire screen*/
   a{
-    display: block;
+      display: block;
   }
 }
 
