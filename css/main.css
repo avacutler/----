@@ -3,6 +3,8 @@ body {
     padding: 0;
     width: 70%;
 }
+
+
 nav{
   width: 100vw;
   background-color: #0033cc;
@@ -30,6 +32,27 @@ a {
 a:hover {
     background-color: #0066ff;
 }
+
+/*change the layout of the navigation bar for all the screens 
+that have a width less or equal than 500px*/
+
+@media only screen and (max-width: 500px) {
+  /*shows elements in a column*/
+  ul{
+    flex-direction: column;
+  }
+  
+  /* deletes margin on top or bottom of the a tag*/
+  li{
+    margin: 0;
+  }
+ /* makes sure that the a tag will take the entire screen*/
+  a{
+    display: block;
+  }
+}
+
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
