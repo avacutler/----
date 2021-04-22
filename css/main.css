@@ -17,14 +17,14 @@ li{
 a{
   text-decoration: none;
   color: black;
-  font-family: monospace;
+  font-family: sans-serif;
 
   padding: 2vw;
 }
 
 nav{
   width: 100vw;
-  background-color: #D6EFFF;
+  background-color: maroon;
 }
 
 ul{
@@ -44,7 +44,7 @@ button{
 }
 
 a:hover{
-  background-color: #C6E9FF;
+  background-color: brown;
 }
 
 @media only screen and (max-width: 500px) {
