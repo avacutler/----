@@ -1,5 +1,6 @@
 body {
     margin: 0px ;
+    padding: 0;
     width: 70%;
 }
 nav{
@@ -17,13 +18,14 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
     list-style-type: none;
-    fontsize: 8vh;
+    fontsize: 3vh;
 }
 
 
 a {
     text-decoration: none;
     color: #999;
+    padding: 2vw;
 }
 a:hover {
     text-decoration: underline;
