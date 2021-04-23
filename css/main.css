@@ -10,14 +10,13 @@ li{
   list-style-type: none;
   margin: 2vw 0;
   
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
 
 a{
   text-decoration: none;
   color: black;
   font-family: sans-serif;
-
   padding: 2vw;
 }
 
@@ -30,7 +29,6 @@ ul{
   display: block;
   margin: 0;
   padding: 0;
-  
   display: flex;  
 }
 
@@ -50,41 +48,34 @@ a:hover{
   ul{
     flex-direction: column;
   }
-  
   a{
     display: block;
   }
-  
   li{
     margin: 0;
   }
-  
   button{
     display: block;
-    
     padding: 2vw;
     font-size: 3vh;
-    background-color: #AFE0FF;
+    background-color: #C8E3FF;
     border: none;
     outline: none;
     cursor: pointer;
-    
     align-self: flex-start;
   }
 }
 
-
 /*change the layout of the navigation bar for all the screens 
 that have a width less or equal than 500px*/
-
 
 h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.3em;
-    line-height: 1.5em;
+    font-size: 1.2em;
+    line-height: 1.4em;
     color: #333;
     padding: 15px;
 }
