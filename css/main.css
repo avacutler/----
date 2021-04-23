@@ -32,10 +32,6 @@ ul{
   display: flex;  
 }
 
-body{
-  margin: 0;
-}
-
 button{
   display: none;
 }
@@ -72,6 +68,12 @@ that have a width less or equal than 500px*/
 h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 20px;
+}
+h2 {
+    font-size: 1.8em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 20px;
 }
 p {
     font-size: 1.2em;
