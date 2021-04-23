@@ -23,7 +23,7 @@ a{
 
 nav{
   width: 100vw;
-  background-color: maroon;
+  background-color: #C8E3FF;
 }
 
 ul{
@@ -43,7 +43,7 @@ button{
 }
 
 a:hover{
-  background-color: brown;
+  background-color: #B1D0F1;
 }
 
 @media only screen and (max-width: 1000px) {
